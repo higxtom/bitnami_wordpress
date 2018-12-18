@@ -1,0 +1,9 @@
+[16-Dec-2018 15:05:16 UTC] PHP Notice:  edit_form_advanced の使用はバージョン 5.0.0 から<strong>非推奨</strong>になっています ! 代わりに block_editor_meta_box_hidden_fields を使ってください。 このアクションはクラシックエディターでは引き続きサポートされますが、ブロックエディターでは非推奨です。 in /Applications/wordpress-5.0.1-0/apps/wordpress/htdocs/wp-includes/functions.php on line 4147
+[16-Dec-2018 15:05:16 UTC] PHP Stack trace:
+[16-Dec-2018 15:05:16 UTC] PHP   1. {main}() /Applications/wordpress-5.0.1-0/apps/wordpress/htdocs/wp-admin/post.php:0
+[16-Dec-2018 15:05:16 UTC] PHP   2. include() /Applications/wordpress-5.0.1-0/apps/wordpress/htdocs/wp-admin/post.php:166
+[16-Dec-2018 15:05:16 UTC] PHP   3. the_block_editor_meta_boxes() /Applications/wordpress-5.0.1-0/apps/wordpress/htdocs/wp-admin/edit-form-blocks.php:405
+[16-Dec-2018 15:05:16 UTC] PHP   4. the_block_editor_meta_box_post_form_hidden_fields() /Applications/wordpress-5.0.1-0/apps/wordpress/htdocs/wp-admin/includes/post.php:2088
+[16-Dec-2018 15:05:16 UTC] PHP   5. do_action_deprecated() /Applications/wordpress-5.0.1-0/apps/wordpress/htdocs/wp-admin/includes/post.php:2227
+[16-Dec-2018 15:05:16 UTC] PHP   6. _deprecated_hook() /Applications/wordpress-5.0.1-0/apps/wordpress/htdocs/wp-includes/plugin.php:629
+[16-Dec-2018 15:05:16 UTC] PHP   7. trigger_error() /Applications/wordpress-5.0.1-0/apps/wordpress/htdocs/wp-includes/functions.php:4147
